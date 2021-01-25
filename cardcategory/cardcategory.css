@@ -1,0 +1,16 @@
+.breakfastimg{
+    z-index: -1;
+    border-radius: 25px;
+}
+.breakfasttext{
+    position: absolute;
+    font-weight: bolder;
+    font-size: 50px;
+    color: ivory;
+    -webkit-text-stroke:2px black;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
