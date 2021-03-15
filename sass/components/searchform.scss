@@ -1,10 +1,11 @@
+@import "../base/index.scss";
+
 .searchform{
-    width:98%;
-    border: 2px solid #2bde8d ;
+    width:100%;
+    border: 2px solid $green ;
     display: flex;
-    justify-content: space-between;
-    padding: 0 1%;
-    border-radius: 5px;
+    padding: 0;
+    border-radius: 15px;
 }
 
 .searchform input{
@@ -15,7 +16,7 @@
     border: none;
 }
 
-.searchform .defaultbutton i{
+.searchform .button2 i{
     font-size: 1.1em;
-   margin: 0 5%;
+    margin: 0 5%;
 }

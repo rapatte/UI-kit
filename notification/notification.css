@@ -1,0 +1,42 @@
+/*-----------------------------------------------------------BUTTON-------------------------------------------------------------------*/
+/*------------------------------------------------------------ALERT-----------------------------------------------------------------*/
+/*--------------------------------------------------------------AVATARS--------------------------------------------------------------*/
+.notification {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1%;
+  border: 2px solid #748a7a;
+}
+
+.imginfo {
+  display: flex;
+  align-items: center;
+  width: 60%;
+}
+
+.info span {
+  color: #748a7a;
+  margin: 0;
+  font-size: 1em;
+  padding: 0 4%;
+  font-weight: 800;
+}
+
+.info h4 {
+  color: #748a7a;
+  margin: 0;
+  font-size: 1.2em;
+  padding: 0 4%;
+}
+
+.notification a {
+  text-decoration: none;
+  color: #748a7a;
+}
+
+.notification a:hover {
+  color: #000000;
+}
+
+/*# sourceMappingURL=notification.css.map */

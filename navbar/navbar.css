@@ -1,0 +1,45 @@
+/*-----------------------------------------------------------BUTTON-------------------------------------------------------------------*/
+/*------------------------------------------------------------ALERT-----------------------------------------------------------------*/
+/*--------------------------------------------------------------AVATARS--------------------------------------------------------------*/
+.navbar {
+  width: 98%;
+  padding: 1%;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar .redcirecle {
+  width: 100px;
+  height: 100px;
+  background-color: #a00d0d;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar i {
+  color: #ffffff;
+  font-size: 2em;
+}
+
+.navbar .info a {
+  text-decoration: none;
+  font-size: 1.5em;
+  color: #748a7a;
+}
+
+.navbar .info a:nth-child(1) {
+  color: #000000;
+  font-weight: 800;
+}
+
+.navbar .info {
+  width: 20%;
+  display: flex;
+  align-items: center;
+}
+
+/*# sourceMappingURL=navbar.css.map */

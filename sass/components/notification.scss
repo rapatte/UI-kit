@@ -1,9 +1,11 @@
+@import "../base/index.scss";
+
 .notification{
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 0 1%;
-    border: 2px solid grey;
+    border: 2px solid $gris;
 }
 
 .imginfo{
@@ -14,7 +16,7 @@
 }
 
 .info span{
-    color: grey;
+    color: $gris;
     margin: 0;
     font-size: 1em;
     padding: 0 4%;
@@ -22,7 +24,7 @@
 }
 
 .info h4{
-    color: rgb(75, 75, 75);
+    color: $gris;
     margin: 0;
     font-size: 1.2em;
     padding: 0 4%;
@@ -30,9 +32,9 @@
 
 .notification a{
     text-decoration: none;
-    color: grey;
+    color: $gris;
 }
 .notification a:hover{
     
-    color: black;
+    color: $black;
 }
