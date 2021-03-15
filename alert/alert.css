@@ -1,0 +1,50 @@
+body {
+  font-family: "Yusei Magic", sans-serif;
+}
+
+.editAlert1, .editAlert2, .editAlert3 {
+  padding: 20px;
+  background-color: #ffffff;
+  color: black;
+  margin-bottom: 15px;
+}
+
+.closebtn {
+  margin-right: 30px;
+  color: #000000;
+  font-weight: bolder;
+  float: right;
+  font-size: 30px;
+  line-height: 100px;
+  cursor: pointer;
+  transition: 0.3s;
+  display: flex;
+  align-items: center;
+}
+.closebtn:hover {
+  color: #a00d0d;
+}
+
+.yay, .mmh, .oops {
+  font-weight: bold;
+}
+
+.message1, .message2, .message3 {
+  border-radius: 5px;
+  padding: 25px;
+  font-weight: lighter;
+}
+
+.message1 {
+  border: 3px solid #1a7217;
+}
+
+.message2 {
+  border: 3px solid #fec65a;
+}
+
+.message3 {
+  border: 3px solid #a00d0d;
+}
+
+/*# sourceMappingURL=alert.css.map */

@@ -1,0 +1,37 @@
+@import "../base/index";
+body {
+    font-family: 'Yusei Magic', sans-serif;
+}
+.editAlert1, .editAlert2, .editAlert3 {
+    @include box-alert;
+}
+.closebtn {    
+    margin-right: 30px;
+    color: $black;
+    font-weight: bolder ;
+    float: right;
+    font-size: 30px;
+    line-height: 100px;
+    cursor: pointer;
+    transition: 0.3s;
+    display: flex;
+    align-items:center;
+    &:hover{
+        color: $red;
+    } 
+}
+.yay, .mmh, .oops {
+    font-weight: bold;
+}
+.message1, .message2, .message3 {
+    @include alert-message
+}
+.message1 {
+    border: 3px solid $green;
+}
+.message2 {
+    border: 3px solid $orange;
+}
+.message3 {
+    border:3px solid $red;
+}

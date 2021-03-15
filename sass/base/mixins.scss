@@ -1,0 +1,38 @@
+/*-----------------------------------------------------------BUTTON-------------------------------------------------------------------*/
+@mixin button-active {    
+        position:relative;
+        top:1px;
+}
+
+/*------------------------------------------------------------ALERT-----------------------------------------------------------------*/
+@mixin box-alert {
+    padding: 20px;
+    background-color : #ffffff;
+    color: rgb(0, 0, 0);
+    margin-bottom: 15px;
+}
+@mixin alert-message {
+    border-radius:5px ;
+    padding: 25px ;
+    font-weight: lighter;
+}
+
+/*--------------------------------------------------------------AVATARS--------------------------------------------------------------*/
+@mixin petit-avatar {
+    vertical-align: middle;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+@mixin moyen-avatar {
+    vertical-align: middle;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+@mixin grand-avatar {
+    vertical-align: middle;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}

@@ -1,25 +1,36 @@
 /*-----------------------------------------------------------BUTTON-------------------------------------------------------------------*/
 /*------------------------------------------------------------ALERT-----------------------------------------------------------------*/
 /*--------------------------------------------------------------AVATARS--------------------------------------------------------------*/
-.breakfastimg {
-  z-index: -1;
-  border-radius: 25px;
+.mainfoot {
+  background: #ffffff;
+  height: 200px;
   width: 100%;
-}
-
-.breakfasttext {
-  position: absolute;
-  font-weight: bolder;
-  font-size: 3em;
-  color: #ffffff;
-  -webkit-text-stroke: 2px #000000;
-}
-
-.box {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
-  width: 100%;
+  color: #000000;
+  flex-wrap: wrap;
 }
 
-/*# sourceMappingURL=cardcategory.css.map */
+.icons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.icons a {
+  color: #748a7a;
+  font-size: 2em;
+  margin: 10%;
+  cursor: pointer;
+}
+
+.icons a:hover {
+  color: #000000;
+}
+
+.text span {
+  font-size: 1.5em;
+}
+
+/*# sourceMappingURL=footer.css.map */

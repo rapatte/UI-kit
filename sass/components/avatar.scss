@@ -1,0 +1,11 @@
+@import "../base/index.scss";
+
+.avatar1 {
+    @include petit-avatar;
+}
+.avatar2 {
+    @include moyen-avatar;
+}
+.avatar3 {
+    @include grand-avatar;
+}

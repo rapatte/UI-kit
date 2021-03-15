@@ -1,0 +1,37 @@
+@import "../base/index.scss";
+
+.mainfoot{
+    background:$white;
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: $black;
+    flex-wrap: wrap;
+}
+
+.icons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.icons a{
+    color: $gris;
+    font-size: 2em;
+    margin: 10%;
+    cursor: pointer;
+}
+
+.icons a:hover{
+    color: $black;
+    
+}
+
+.text span{
+
+    font-size: 1.5em;
+
+}

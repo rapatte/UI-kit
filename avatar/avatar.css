@@ -1,12 +1,25 @@
-.avatar {
-    vertical-align: middle;
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-  }
-  .avatar1 {
-    vertical-align: middle;
-    width: 250px;
-    height: 250px;
-    border-radius: 50%;
-  }
+/*-----------------------------------------------------------BUTTON-------------------------------------------------------------------*/
+/*------------------------------------------------------------ALERT-----------------------------------------------------------------*/
+/*--------------------------------------------------------------AVATARS--------------------------------------------------------------*/
+.avatar1 {
+  vertical-align: middle;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.avatar2 {
+  vertical-align: middle;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.avatar3 {
+  vertical-align: middle;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+}
+
+/*# sourceMappingURL=avatar.css.map */

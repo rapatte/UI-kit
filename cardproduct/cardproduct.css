@@ -1,0 +1,39 @@
+/*-----------------------------------------------------------BUTTON-------------------------------------------------------------------*/
+/*------------------------------------------------------------ALERT-----------------------------------------------------------------*/
+/*--------------------------------------------------------------AVATARS--------------------------------------------------------------*/
+.Card-product {
+  height: 250px;
+  background: #ffffff;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: #ffffff;
+  margin: 2% auto;
+  box-shadow: 20px 2px 5px 1px #000000;
+  width: 75%;
+}
+
+.Card-product img {
+  height: 250px;
+  width: 250px;
+}
+
+.Card-product div {
+  padding: 1%;
+}
+
+.Card-product h3 {
+  color: #000000;
+  font-size: 2em;
+  margin: 0.5% auto;
+}
+
+.Card-product span {
+  color: #748a7a;
+}
+
+.Card-product span .bold {
+  font-weight: 900;
+}
+
+/*# sourceMappingURL=cardproduct.css.map */

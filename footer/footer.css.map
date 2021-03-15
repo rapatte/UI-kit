@@ -1,0 +1,1 @@
+{"version":3,"sourceRoot":"","sources":["../sass/base/mixins.scss","../sass/components/footer.scss","../sass/base/colors.scss"],"names":[],"mappings":"AAAA;AAMA;AAaA;ACjBA;EACI,YCCI;EDAJ;EACA;EACA;EACA;EACA;EACA,OCJI;EDKJ;;;AAGJ;EACI;EACA;EACA;;;AAIJ;EACI,OCrBG;EDsBH;EACA;EACA;;;AAGJ;EACI,OCvBI;;;AD2BR;EAEI","file":"footer.css"}

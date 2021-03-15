@@ -1,54 +1,50 @@
+@import "../base/index";
+
 .button1 {
   background-color: transparent;
   border-radius: 42px;
-  border: 1px solid #748a7a;
+  border: 1px solid $gris;
   display: inline-block;
   cursor: pointer;
-  color: #748a7a;
+  color: $gris;
   font-family: Arial;
   font-size: 28px;
   padding: 21px 53px;
   text-decoration: none;
-}
-.button1:active {
-  position: relative;
-  top: 1px;
+  &:active{
+      @include button-active;
+  }
 }
 
 .button2 {
-  background-color: #1a7217;
+  background-color: $green;
   border-radius: 10px;
-  border-color: #1a7217;
+  border-color: $green;
   display: inline-block;
   cursor: pointer;
-  color: #ffffff;
+  color: $white;
   font-family: Arial;
   font-size: 28px;
   padding: 21px 53px;
   text-decoration: none;
+  &:active{
+    @include button-active;
 }
-.button2:active {
-  position: relative;
-  top: 1px;
 }
-
 .button3 {
-  background-color: #162f83;
+  background-color: $blue;
   border-radius: 10px;
-  border: 1px solid #162f83;
+  border: 1px solid $blue;
   display: inline-block;
   cursor: pointer;
-  color: #ffffff;
+  color: $white;
   font-family: Arial;
   font-size: 28px;
   padding: 21px 53px;
   text-decoration: none;
+  &:active{
+    @include button-active;
 }
-.button3:active {
-  position: relative;
-  top: 1px;
 }
 
 /*# sourceMappingURL=button.scss.map */
-
-/*# sourceMappingURL=button.css.map */
