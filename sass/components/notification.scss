@@ -1,40 +1,36 @@
 @import "../base/index.scss";
 
-.notification{
+.notification {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 0 1%;
     border: 2px solid $gris;
-}
-
-.imginfo{
+  }  
+  .imginfo {
     display: flex;
     align-items: center;
     width: 60%;
-   
-}
-
-.info span{
-    color: $gris;
-    margin: 0;
-    font-size: 1em;
-    padding: 0 4%;
-    font-weight: 800;
-}
-
-.info h4{
-    color: $gris;
-    margin: 0;
-    font-size: 1.2em;
-    padding: 0 4%;
-}
-
-.notification a{
+  }  
+  .info {
+    span {
+      color: $gris;
+      margin: 0;
+      font-size: 1em;
+      padding: 0 4%;
+      font-weight: 800;
+    }  
+    h4 {
+      color: $gris;
+      margin: 0;
+      font-size: 1.2em;
+      padding: 0 4%;
+    }
+  }  
+  .notification a {
     text-decoration: none;
-    color: $gris;
-}
-.notification a:hover{
-    
-    color: $black;
-}
+    color: $gris;  
+    &:hover {
+      color: $black;
+    }
+  }
